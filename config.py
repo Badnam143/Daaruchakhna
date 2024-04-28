@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Badnam143/Badnamanonx",
+    "https://github.com/Badnam143/Daaruchakhna",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/janta_garaze")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/thechatting_zone")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Daaru_chakhanaa")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,17 +78,17 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/2f199c1e0e083e53fbf4c.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/287fe1ac55a41131955f3.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/2f199c1e0e083e53fbf4c.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/287fe1ac55a41131955f3.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/2f199c1e0e083e53fbf4c.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/2f199c1e0e083e53fbf4c.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/2f199c1e0e083e53fbf4c.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/2f199c1e0e083e53fbf4c.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/2f199c1e0e083e53fbf4c.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/2f199c1e0e083e53fbf4c.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/287fe1ac55a41131955f3.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/287fe1ac55a41131955f3.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/287fe1ac55a41131955f3.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/287fe1ac55a41131955f3.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/287fe1ac55a41131955f3.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/287fe1ac55a41131955f3.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
